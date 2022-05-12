@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
     res.sendFile(login_page);
 });
 
-const port = 32200
+const port = 80
 app.listen(port, () => {
     console.log(`WebServer is up. Listening at http://localhost:${port}`);
 })

@@ -102,12 +102,11 @@ if __name__ == "__main__":
 	print(G + "*** Step 1:  Choosing an interface that will be used for the fake AP. ***\n")
 	# empty = input ("Press Enter to continue.........")
 	print(W)
+		# Reset all the setting
+	reset_setting() 
 	os.system('ifconfig')
 	global interface2
 	interface2 = input(G + "Please enter the interface name you want to use: ")
-	
-	# Reset all the setting
-	reset_setting() 
 	
 	# ssid=input("Please enter the SSID name ")
 	global essid
