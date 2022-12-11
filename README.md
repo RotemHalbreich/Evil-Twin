@@ -20,7 +20,7 @@
 * *Network Interface Controller (NIC) - Tenda in our case.*
 
 *Clone the project using the Command Line by typing the command:*
-`git clone https://github.com/LeviEyal/EvilTwin.git`
+`git clone https://github.com/RotemHalbreich/Evil-Twin.git`
 * *Run* `sudo install python3` *in the Command Line to download Python.*
 * *Run* `sudo sh Requierments.sh` *in the Command Line to download all the requirements.*
 * *Run* `sudo python3 start.py` *in the Command Line to execute the program.*
